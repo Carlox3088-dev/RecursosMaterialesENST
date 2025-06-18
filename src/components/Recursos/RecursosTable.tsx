@@ -17,7 +17,7 @@ export function RecursosTable({ recursos, loading, onEdit, onDelete }: RecursosT
   const formatCurrency = (value: number) => {
     return new Intl.NumberFormat('es-ES', {
       style: 'currency',
-      currency: 'EUR'
+      currency: 'MXN'
     }).format(value);
   };
 
