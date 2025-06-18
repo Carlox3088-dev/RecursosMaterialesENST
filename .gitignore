@@ -1,0 +1,21 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+#Hardhat files
+cache
+.vscode
+
+# ignore all files in the build directory
+build/*
+!build/.gitkeep
+
+# ignore all files in the dist directory
+dist/*
+!dist/.gitkeep
+
+# ignore all files in the out directory
+out/*                                                                  
